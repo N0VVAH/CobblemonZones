@@ -8,4 +8,8 @@ public class ModDataPath {
     public static Path getLadderDataFile(MinecraftServer server) {
         return server.getWorldPath(net.minecraft.world.level.storage.LevelResource.ROOT).resolve("data").resolve("cobblemonzones").resolve("zones.json");
     }
+
+    public static Path getIRSDataFile(MinecraftServer server) {
+        return server.getWorldPath(net.minecraft.world.level.storage.LevelResource.ROOT).resolve("data").resolve("cobblemonzones").resolve("apikey.json");
+    }
 }

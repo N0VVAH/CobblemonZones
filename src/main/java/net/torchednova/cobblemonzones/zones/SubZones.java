@@ -10,10 +10,12 @@ public class SubZones {
         this.id = id;
         this.poss = poss;
         this.cobblemans = new ArrayList<>();
+        this.spawnCount = 8;
     }
 
     public int id;
     public Vec3[] poss;
     public ArrayList<String> cobblemans;
+    public int spawnCount = 8;
 
 }
